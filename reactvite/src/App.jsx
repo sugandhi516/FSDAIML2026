@@ -1,11 +1,7 @@
-import Card from "./component/ICard";
+import ICardGallery from "./component/ICardGallery";
 
 function App() {
-    return (
-        <div>
-            <Card />
-        </div>
-    );
+  return <ICardGallery />;
 }
 
 export default App;
